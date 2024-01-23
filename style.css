@@ -1,0 +1,47 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+img {
+    width: auto;
+    height: 400px;
+}
+
+
+
+
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 400px;
+}
+
+.sec_left {
+    background: gray;
+}
+
+.sec_right {
+    background: khaki;
+    width: 60px;
+    height: 40px;
+}
+
+
+
+
+
+.sec2 {
+    background: red;
+}
+
+.sec3 {
+    background: green;
+}
+
+.sec4 {
+    background: saddlebrown;
+}

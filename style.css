@@ -31,9 +31,10 @@ html, body {
     height: 400px;
     background: #1f2937;
     justify-content: space-around;
+    padding: 20px;
 }
 
-    .sec_left {
+    .secLeft {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -50,7 +51,7 @@ html, body {
         justify-content: center;
     }
 
-    .hero_text {
+    .heroText {
         font-size: 48px;
         font-weight: 900;
         color: #f9faf8;
@@ -71,7 +72,7 @@ html, body {
         height: 40px;
     }
 
-    .sec_right {
+    .secRight {
         display: flex;
         justify-content: center;
         align-items: center;    
@@ -86,13 +87,52 @@ html, body {
 
 
 .sec2 {
-    background: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f9faf8;
+    padding: 20px;
+
 }
 
+    .infoText {
+        font-size: 36px;
+        font-weight: 900;
+        color: #1f2937
+    }
+
+    .infoBoxContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        padding: 20px;
+        justify-content: space-evenly;
+    }
+
+    .infoBoxSection {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .infoBox {
+        border: #3882f6;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 10%;
+        height: 150px;
+        width: 150px;
+        
+    }
+
 .sec3 {
-    background: green;
+    background: #e5e7eb;
+    color: #3882f6;
 }
 
 .sec4 {
-    background: saddlebrown;
+    background: #f9faf8;
 }

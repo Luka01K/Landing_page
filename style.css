@@ -1,10 +1,44 @@
 html, body {
     height: 100%;
-    margin: 0;
-    
+    margin: 0;  
 }
 
 
+
+
+header {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1f2937;
+    color: #f9faf8;
+    min-height: 5vh;
+    padding: 0;
+}
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .headLogo {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #f9faf8;
+        font-weight: 300;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+
+
+    
 .content {
     display: flex;
     flex-direction: column;
@@ -49,6 +83,7 @@ html, body {
         flex-basis: 800px;
         align-items: start;
         justify-content: center;
+        padding: 20px;
     }
 
     .heroText {
@@ -129,6 +164,9 @@ html, body {
         
     }
 
+
+
+
 .sec3 {
     background: #e5e7eb;
     color: #1f2937;
@@ -152,6 +190,9 @@ html, body {
     .quoteAut {
         font-size: 16px;
     }
+
+
+
 
 .sec4 {
     background: #f9faf8;
@@ -194,3 +235,19 @@ html, body {
             height: 50px;
             font-weight: 800;
         }
+
+
+
+
+footer {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1f2937;
+    color: #f9faf8;
+    min-height: 5vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}

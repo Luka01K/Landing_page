@@ -1,7 +1,6 @@
 html, body {
     height: 100%;
-    margin: 0;
-    padding: 0;  
+    margin: 0;  
 }
 
 
@@ -13,7 +12,7 @@ header {
     background-color: #1f2937;
     color: #f9faf8;
     min-height: 5vh;
-    padding: 0;
+    padding: 20px;
 }
 
     .header {
@@ -47,10 +46,11 @@ header {
     justify-content: space-evenly;
     font-family: myFont;
     height: 100%;
+    flex-grow: 1;
 }
 
 .sec {
-    height: 25%;
+    min-height: 25%;
 }
 
 @font-face {
@@ -246,7 +246,7 @@ footer {
     background-color: #1f2937;
     color: #f9faf8;
     min-height: 5vh;
-    padding: 0;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;

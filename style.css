@@ -68,8 +68,9 @@ html, body {
         color: #e5e7eb;
         border-radius: 8px;
         border: none;
-        width: 100px;
-        height: 40px;
+        width: 120px;
+        height: 50px;
+        font-weight: 600;
     }
 
     .secRight {
@@ -130,9 +131,66 @@ html, body {
 
 .sec3 {
     background: #e5e7eb;
-    color: #3882f6;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+    .quoteCon {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 20px;
+    }
+
+    .quote {
+        font-size: 36px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .quoteAut {
+        font-size: 16px;
+    }
 
 .sec4 {
     background: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+    .signCon {
+        border-radius: 10px;
+        background-color: #3882f6;
+        width: 880px;
+        height: 120px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+        .callout {
+            color: #f9faf8;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .calloutCall {
+            font-size: 24px;
+        }
+
+        .button2 {
+            background-color: #3882f6;
+            font-size: 22px;
+            color: #e5e7eb;
+            border-style: solid;
+            border-radius: 8px;
+            border-color: #f9faf8;
+            border-width: 4px;
+            width: 120px;
+            height: 50px;
+            font-weight: 800;
+        }
